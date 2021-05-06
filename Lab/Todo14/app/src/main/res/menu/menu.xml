@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+<item
+    android:id="@+id/gallery"
+    android:title="title"
+    android:orderInCategory="10"
+    android:icon="@drawable/ic_like"
+    app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/phone"
+        android:title="phone"
+        android:orderInCategory="10"
+android:icon="@drawable/ic_call"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/password"
+        android:title="password"
+        android:orderInCategory="10"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/email"
+        android:title="email"
+        android:orderInCategory="10"
+        app:showAsAction="never"/>
+
+
+
+
+</menu>

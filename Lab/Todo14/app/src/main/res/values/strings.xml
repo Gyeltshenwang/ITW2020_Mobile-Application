@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">image</string>
+    <string name="this_is_starfurits_good_for_health">This is starfurits,good for health</string>
+    <string name="lemon">This is Lemon,good for us</string>
+    <string name="apple">This is an Apple, it is good for us</string>
+    <string name="name">Name:</string>
+    <string name="address">Address:</string>
+    <string name="phone">phone:</string>
+    <string name="note">Note:</string>
+    <string name="choose_delivery_method">choose delivery method:</string>
+    <string name="messanger_services">messanger Services</string>
+    <string name="next_day_services">Next day services</string>
+    <string name="pick_up">pick Up</string>
+
+    <string-array name="label_array">
+        <item> Home</item>
+        <item> Work</item>
+        <item> Mobile</item>
+        <item> Mouse</item>
+        <item> Other</item>
+
+
+    </string-array>
+
+
+
+</resources>
