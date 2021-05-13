@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="scorebutton" parent="Widget.AppCompat.Button">
+        <item
+            name="android:background">@drawable/button_background
+
+        </item>
+
+    </style>
+
+    <style name="plusbutton" parent="scorebutton">
+        <item
+            name="android:src">@drawable/ic_baseline_add_24</item>
+        <item name="contentDescription">
+
+        </item>
+
+    </style>
+
+    <style name="Minusbutton" parent="scorebutton">
+        <item
+            name="android:src">@drawable/ic_baseline_minimize_24</item>
+        <item name="contentDescription">
+
+        </item>
+
+    </style>
+
+    <style name="teamtext">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Display1</item>
+    </style>
+
+    <style name="team2">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Display1</item>
+    </style>
+
+
+</resources>

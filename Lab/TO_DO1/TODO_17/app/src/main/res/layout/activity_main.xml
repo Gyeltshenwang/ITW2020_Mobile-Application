@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="Team 1"
+            style="@style/teamtext">
+
+        </TextView>
+        <ImageButton
+            android:layout_width="@dimen/button_size1"
+            android:layout_height="@dimen/button_size"
+            android:id="@+id/decreaseTeam1"
+            android:layout_alignParentLeft="true"
+            android:onClick="decrease"
+
+            android:background="@drawable/button_background"
+            android:layout_alignParentStart="true"
+            style="@style/Minusbutton"
+            android:layout_centerVertical="true">
+
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/IncreaseTeam1"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size1"
+            android:layout_alignParentEnd="true"
+            android:onClick="increase"
+            style="@style/plusbutton"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_baseline_add_24"
+            android:layout_centerVertical="true">
+
+        </ImageButton>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/score1"
+            android:layout_centerHorizontal="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:layout_centerVertical="true"
+            android:text="0">
+
+
+
+        </TextView>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="Team 2"
+            style="@style/team2">
+
+        </TextView>
+
+
+        <ImageButton
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size1"
+            android:id="@+id/decreaseTeam2"
+            android:layout_alignParentLeft="true"
+            style="@style/Minusbutton"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/button_background"
+            android:onClick="decrease"
+            android:layout_centerVertical="true">
+
+        </ImageButton>
+
+        <ImageButton
+            android:layout_width="@dimen/button_size1"
+            android:layout_height="@dimen/button_size"
+            android:id="@+id/IncreaseTeam2"
+            android:layout_alignParentRight="true"
+            style="@style/plusbutton"
+            android:background="@drawable/button_background"
+            android:onClick="increase"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true">
+
+        </ImageButton>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/score2"
+            android:layout_centerHorizontal="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:layout_centerVertical="true"
+            android:text="0">
+
+        </TextView>
+
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
