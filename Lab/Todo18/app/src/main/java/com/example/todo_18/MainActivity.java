@@ -1,6 +1,7 @@
 package com.example.todo_18;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -20,13 +21,14 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        int gridColumnCount = getResources().getInteger(R.integer.grid_column_count);
         //initialize the recycle view
         mRecyclerView = (RecyclerView) findViewById(R.id.recyclerView);
 
         mSportsImageView = findViewById(R.id.sportsImage);
 
         //initialize the arratlist that will contain the data
-        mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
+        mRecyclerView.setLayoutManager(new GridLayoutManager(this,gridColumnCount));
 
         //initialize the adapter and set it at the recycleview
         msport = new ArrayList<>();
